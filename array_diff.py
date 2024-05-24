@@ -1,2 +1,9 @@
 def array_diff(a, b):
-    pass
+     arr = []
+
+     for num in a:
+         if num in b:
+             continue
+
+         arr.append(num)
+     return arr

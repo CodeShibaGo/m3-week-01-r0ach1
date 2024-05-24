@@ -1,2 +1,2 @@
 def positive_sum(arr):
-    pass
+    return sum(x for x in arr if x > 0)
